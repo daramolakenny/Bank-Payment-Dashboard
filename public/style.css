@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+#toggle-text{
+    background-color: rgb(228, 226, 223);
+    cursor: pointer;
+}
+#toggle-icon{
+    color: red;
+    padding: 10px;
+}

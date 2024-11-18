@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output-style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="w-screen h-dvh items-center flex justify-center bg-slate-50">
+        <div class="h-full flex justify-center sm:w[90%] md:w-[65%] lg:w-[60%] bg-gray-100 rounded-lg">
+            <div class="border-2  border-rose-500 rounded-lg">
+                <div class="flex flex-wrap md:flex-col-2 bg-red-600 justify-between p-4">
+                    <div class="justify-around">
+                        <span class="w-fit"><i class="fa-solid fa-bars text-white"></i></span>
+                        <span class="w-fit bg-red-500 rounded-md text-white text-lg p-2">Overview</span>
+                    </div>
+    
+                    <div class="bg-red-700 rounded px-1.5 pt-1">
+                        <a href="/src/login.html">
+                            <img src="./zenith_bank_logo.png" alt="Logo" class="w-fit bg-white size-8 p-1">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="w-full bg-slate-50">
+                    <div class="flex flex-col px-2 text-white">
+                        <h3 class="bg-white text-red-500 w-fit rounded-md mb-1 pl-3 px-2">2365439830 - ACTIVE</h3>
+                        <hr class="flex mx-3">
+                        <h4 class="w-fit pl-3 px-2 text-black bg-white rounded-md mt-0.5">JOEL AMOS</h4>
+                        <div class="flex justify-between">
+                            <div class="max-w-40 text-black bg-slate-50 text-2xl font-semibold rounded-md px-3 py mt-0.5" id="toggle-text">
+                                <i class="fa-solid fa-naira-sign"></i> 69,577.95
+                            </div>
+                            <div class="flex flex-row px-3">
+                                <h3 class="bg-white text-black rounded px-1">Hide balance</h3>
+                                <button id="toggle-button">
+                                    <i class="fa-solid fa-toggle-off px-3 p-1 rounded-lg text-rose-600" id="toggle-icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex w-full sm:flex-col-2 lg:flex-row mt-1.5 bg-gray-500 justify-between p-2">
+                        <h3 class="flex bg-gray-300 text-white md:w-fit sm:w-fit rounded-md p-3 pl-3 px-2">Ledger Balance: <span><i class="fa-solid fa-naira-sign ml-1"></i></span> 69,577.95</h3>
+                        <h3 class="sm:flex-col md:flex-col p-2"><i class="fa-regular fa-calendar-days text-white"></i><span class="p-1 px-2 bg-gray-300 text-white rounded-md">History</span></h3>
+                    </div>
+                </div>
+
+                <div class="w-full bg-slate-50 flex flex-col">
+                    <div class="p-2 w-fit">
+                        <h2 class="bg-white text-black px-2 rounded">eaZyLinks</h2>
+                    </div>
+                    
+                    <hr class="flex mx-1">
+
+                    <div class="h-20 flex flex-row justify-between p-4 sm:[flex-col-2 justify-end]">
+                        <div class="inline-block md:[flex justify-between sm:p-1 md:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-qrcode"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">QR Payment</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-parachute-box"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Travel & Leisure</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-tv"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Cable TV</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-credit-card fa-flip-vertical"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Cards</h3>
+                        </div>
+                    </div>
+
+                    <hr class="bg-gray-100 flex mx-3">
+
+                    <div class="h-20 flex flex-row justify-between p-4 sm:[flex-col-2 justify-end]">
+                        <div class="inline-block md:[flex justify-between sm:p-1 md:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-fingerprint"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">MyBVN</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex flex-col justify-center pb-2 px-20">
+                                <i class="fa-solid fa-share size-2 "></i>
+                                <i class="fa-solid fa-share fa-rotate-180 size-2 mt-3 ml-2"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Scheduled Payments</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-regular fa-lightbulb"></i>
+                                <i class="fa-light fa-sun"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Customize eaZylinks</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Settings</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-20 py-10"></div>
+
+                <div class="w-full bg-slate-50 flex flex-col">
+                    <div class="h-20 flex flex-row justify-between p-4 sm:[flex-col-2 justify-end]">
+                        <div class="inline-block md:[flex justify-between sm:p-1 md:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-bars text-rose-600"></i>
+                            </span>
+                            <h3 class="bg-white text-rose-600 rounded px-2 text-lg sm:text-center">Overview</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-mobile-retro"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Airtime</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Transfer</h3>
+                        </div>
+                        <div class="inline-block md:[flex justify-between ] sm:p-1">
+                            <span class="flex justify-center pb-2">
+                                <i class="fa-solid fa-money-bills"></i>
+                            </span>
+                            <h3 class="bg-white rounded px-2 text-lg sm:text-center">Bills</h3>
+                        </div>
+                    </div>
+                </div>
+                <footer></footer>
+            </div>
+    </div>
+
+    <script src="/src/script.js"></script>
+</body>
+</html>
